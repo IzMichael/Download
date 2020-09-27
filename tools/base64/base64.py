@@ -66,13 +66,13 @@ def runProg():
 
 def printAbout():
     print("This Python script was made by IzMichael")
-    print("You can find more of my work at https://izmichael.xyz")
+    print("You can find more of my work at https://downloads.izmichael.xyz")
     print("For other useful scripts and programs like this one, visit https://download.izmichael.xyz/tools")
     print("Thanks for using my tool!")
     pause()
 
 def printHelp():
-    print("This script will encode and decode base64 text.")
+    print("This script will encode and decode Base64 text.")
     print("To translate into Base64, use the encode tool")
     print("To translate into English, use the decode tool.")
     pause()
