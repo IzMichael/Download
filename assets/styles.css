@@ -1,58 +1,8 @@
-html {
-    scroll-behavior: smooth;
+.hover\:scale-99:hover {
+    --tw-scale-x: 0.99;
+    --tw-scale-y: 0.99;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-}
-
-code {
-    background-color: rgb(176, 179, 182);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    font-size: small;
-    border-radius: 0.25rem;
-}
-
-/* Custom Elements */
-
-tag {
-    padding: 0.25rem;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    font-weight: bold;
-    color: white;
-    --tw-bg-opacity: 1;
-    background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
-    border-radius: 0.5rem;
-    margin-bottom: 0.75rem;
-}
-
-download {
-    padding: 0.25rem;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    font-weight: bold;
-    color: white;
-    --tw-bg-opacity: 1;
-    background-color: rgba(16, 185, 129, var(--tw-bg-opacity));
-    border-radius: 0.5rem;
-    margin-top: 0.75rem;
-    cursor: pointer;
-}
-
-installation {
-    padding: 0.25rem;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    font-weight: bold;
-    color: white;
-    --tw-bg-opacity: 1;
-    background-color: rgba(124, 58, 237, var(--tw-bg-opacity));
-    border-radius: 0.5rem;
-    margin-top: 0.75rem;
-    cursor: pointer;
+div {
+    background-size: cover;
 }

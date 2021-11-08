@@ -1,27 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
-        <title>Downloads | IzMichael</title>
+        <title>Downloads - IzMichael</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="https://resources.izmichael.xyz/assets/tailwind.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="/assets/js/import-html.js"></script>
-        <script src="/assets/js/main.js"></script>
-        <link rel="stylesheet" href="/assets/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/tailwind2.css">
+        <link rel="stylesheet" href="https://resources.izmichael.xyz/assets/tailwind2.css">
+        <link rel="stylesheet" href="./assets/styles.css">
+        <link rel="icon" type="image/png" href="./favicon.png"/>
     </head>
 
-    <body class="h-screen flex flex-col" page="home" onload="menuVis()">
-        <div class="HeaderImport"></div>
-        <div class="MenuImport"></div>
-        <div class="PageContent flex-1 flex items-center justify-center p-16 bg-gray-200">
-            <div class="flex flex-col items-center justify-center">
-                <h1 class="text-2xl font-bold">So what's the purpose of this website?</h1>
-                <p class="text-2xl">Here you can find all of my scripts, tools, programs, and more.</p>
+    <body>
+        <header class="w-full p-5 bg-gray-100 shadow-lg">
+            <h1 class="text-3xl font-bold">Downloads - IzMichael</h1>
+        </header>
+
+        <div class="p-10">
+            <div id="categories"></div>
+
+            <h1 class="w-full pb-2 mb-5 text-2xl font-bold border-b border-blue-600">Installation Guides</h1>
+            <div id="guides" class="flex flex-col items-start justify-start gap-5"></div>
+        </div>        
+
+        <footer class="w-full p-5 mt-5 text-xl border-t-2">
+            <a href="https://izmichael.xyz/" class="w-full text-center">Built by IzMichael - &copy; IzMichael 2021</a>
+        </footer>
+
+        <!-- Templates -->
+
+        <template id="category-template">
+            <div class="flex flex-col items-start justify-start w-full mb-5 category">
+                <h1 class="w-full pb-2 mb-5 text-2xl font-bold border-b border-blue-600">Category Title</h1>
+                <div class="flex flex-row flex-wrap items-start justify-start gap-5 max-w-3/4">
+                    
+                </div>
             </div>
-        </div>
-        <div class="MenuImport"></div>
-        <div class="FooterImport"></div>
+        </template>
+
+        <template id="card-template">
+            <div class="flex flex-col items-center justify-start w-64 overflow-hidden transition-all duration-300 ease-in-out transform border rounded-lg shadow-lg select-none hover:scale-99 hover:shadow-none font-stnd card">
+                <div style="background-image: url('/assets/img/template.png');" class="w-full h-32 image"></div>
+
+                <div class="flex flex-row flex-wrap items-center justify-start w-full pl-2 pr-2 mt-2 tags"></div>
+
+                <div class="flex flex-col items-start justify-start w-full h-full px-2 mb-2">
+                    <h1 class="w-full text-xl font-bold text-left title">Template Title</h1>
+                    <h1 class="w-full mt-2 text-sm text-left description">Template Description - Nulla culpa fugiat in do do qui ipsum veniam cillum amet deserunt.</h1>
+
+                    <div class="flex flex-row items-start justify-between w-full">
+                        <a href="/" class="flex-1 p-2 mt-2 mr-2 font-bold text-center bg-green-400 rounded-lg hover:bg-green-300">Download</a>
+                        <a href="/" class="flex-1 p-2 mt-2 font-bold text-center text-white bg-purple-400 rounded-lg hover:bg-purple-300">Instructions</a>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+        <template id="card-tag-template">
+            <p class="flex flex-col items-center justify-start gap-2 px-2 py-1 mb-2 mr-2 text-sm rounded-md shadow-sm">
+                Tag Text
+            </p>
+        </template>
+
+        <template id="toast-template">
+            <div class="absolute top-0 right-0 w-64 py-2 mt-5 mr-5 border-2 rounded-md shadow-2xl">
+                s
+            </div>
+        </template>
+
+        <!-- Scripts -->
+
+        <script src="./assets/js/main.js"></script>
     </body>
 
 </html>

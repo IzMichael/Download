@@ -1,0 +1,67 @@
+{
+    "categories": [{
+            "title": "Minecraft",
+            "color": "#06BF01"
+        },
+        {
+            "title": "Phoenixcraft",
+            "color": "#FB5B05"
+        },
+        {
+            "title": "Scripts",
+            "color": "#06BF01"
+        }
+    ],
+
+    "items": [
+        {
+            "title": "Base64 Translator",
+            "image": "template.png",
+            "description": "This is a simple to use script to translate between English and Base64.",
+            "category": "Scripts",
+            "filename": "base64.py",
+            "type": {"text": "Python Script", "color": "green-300"},
+            "tags": [
+                {"text": "v1.0.0", "color": "blue-300"}
+            ]
+        },
+        {
+            "title": "Iz's Light Pack",
+            "image": "template.png",
+            "description": "This is a simple datapack that will allow the player to craft the new 1.17 Light Block in survival and break it in survival.",
+            "category": "Minecraft",
+            "filename": "Iz's Light Pack.zip",
+            "type": {"text": "Datapack", "color": "yellow-300"},
+            "tags": [
+                {"text": "v1.0.0", "color": "blue-300"},
+                {"text": "1.17+", "color": "green-300"}
+            ]
+        },
+        {
+            "title": "Phoenixcraft S3 Main - Menu Panorama - Spawn",
+            "image": "Phoenixcraft S3 Panorama.png",
+            "description": "This is a main menu background panorama of the Phoenixcraft Season 3 Spawn.",
+            "category": "Phoenixcraft",
+            "filename": "Phoenixcraft S3 Panorama.zip",
+            "type": {"text": "Resource Pack", "color": "blue-300"},
+            "tags": [
+                {"text": "v1.0.0", "color": "blue-300"},
+                {"text": "Season 3", "color": "yellow-500"},
+                {"text": "Panorama", "color": "red-300"}
+            ]
+        },
+        {
+            "title": "Iz's Phoenixcraft Painting Pack",
+            "image": "template.png",
+            "description": "IzMichael's Minecraft Painting Resource Pack. All photos taken on the Phoenixcraft Server. Some photos were taken by Zoclhas.",
+            "category": "Phoenixcraft",
+            "filename": "Iz's Phoenixcraft Painting Pack.zip",
+            "type": {"text": "Resource Pack", "color": "blue-300"},
+            "tags": [
+                {"text": "v1.0.0", "color": "blue-300"},
+                {"text": "Season 4", "color": "yellow-500"},
+                {"text": "Paintings", "color": "red-300"}
+            ]
+        }
+    ]
+}
