@@ -52,7 +52,7 @@
         },
         {
             "title": "Iz's Phoenixcraft Painting Pack",
-            "image": "Iz's Phoenixcraft Painting Pack.png",
+            "image": "Phoenixcraft Painting Pack.png",
             "description": "IzMichael's Minecraft Painting Resource Pack. All photos taken on the Phoenixcraft Server. Some photos were taken by Zoclhas.",
             "category": "Phoenixcraft",
             "filename": "Iz's Phoenixcraft Painting Pack.zip",
@@ -61,6 +61,18 @@
                 {"text": "v1.0.0", "color": "blue-300"},
                 {"text": "Season 4", "color": "yellow-500"},
                 {"text": "Paintings", "color": "red-300"}
+            ]
+        },
+        {
+            "title": "Iz's Smol Mobs",
+            "image": "Smol Mobs.png",
+            "description": "This is a simple datapack that will allow you to force mobs into their baby state. Just name the mob 'smol' to make it a baby, and 'nosmol' to allow it to grow up.",
+            "category": "Minecraft",
+            "filename": "Iz's Smol Mobs.zip",
+            "type": {"text": "Datapack", "color": "yellow-300"},
+            "tags": [
+                {"text": "v1.0.0", "color": "blue-300"},
+                {"text": "1.18+", "color": "green-300"}
             ]
         }
     ]
